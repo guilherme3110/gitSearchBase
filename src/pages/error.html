@@ -1,22 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- FONTES -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
-      rel="stylesheet"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Git Search - User Not Found</title>
-  </head>
-  <body>
+  <!-- CSS -->
+  <link rel="stylesheet" href="../styles/reset.css">
+  <link rel="stylesheet" href="../styles/globalStyles.css">
+  <link rel="stylesheet" href="../styles/error.css">
 
-    <script type="module" src="../scripts/error.js"></script>
-  </body>
+  <!-- FONTES -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+
+  <title>Git Search - User Not Found</title>
+</head>
+
+<body>
+  <section class="error-left-section">
+    <div class="error-left-div">
+      <h1>Ooops!</h1>
+      <p class="error-text">
+        Não encotramos o usuário que você procurou, <span class="bold-text">vamos tentar novamente.</span>
+      </p>
+      <button class="new-search">Nova Busca</button>
+    </div>
+  </section>
+
+  
+  <section class="error-right-section">
+    <figure class="error-right-figure">
+      <img src="../assets/alert.svg" alt="alert-sign" class="alert-sign">
+      <img src="../assets/rectangle-113.svg" alt="pink-square" class="pink-square">
+      <img src="../assets/rectangle-112.svg" alt="purple-square" class="purple-square">
+    </figure>
+  </section>
+  <script type="module" src="../scripts/error.js"></script>
+</body>
+
 </html>

@@ -1,0 +1,67 @@
+body {
+    font-family: 'Inter';
+    max-width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+    background-color: var(--color-grey-2);
+}
+
+.error-left-div {
+    width: 342px;
+}
+
+.error-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+.bold-text {
+    font-weight: bolder;
+}
+
+.new-search {
+    width: 342px;
+    height: 60px;
+    border: 2px solid var(--color-brand-2);
+    background-color: var(--color-brand-2);
+    border-radius: 8px;
+    font-size: 18px;
+    line-height: 18px;
+    color: var(--color-grey-7);
+}
+
+.new-search:hover {
+    border: 2px solid var(--color-brand-1);
+    background-color: var(--color-brand-1);
+}
+
+.error-right-figure {
+    width: 400px;
+}
+
+.alert-sign {
+    font-size: 100px;
+    position: absolute;
+    left: 1240px;
+    top: 380px;
+    z-index: 3;
+}
+
+.pink-square {
+    position: absolute;
+    left: 1100px;
+    top: 280px;
+    z-index: 2;
+}
+
+.purple-square {
+    height: 350px;
+    left: 842px;
+    top: 206px;
+    z-index: 1;
+}
